@@ -1,0 +1,126 @@
+@baseUrl = http://localhost:5066
+@contentType = application/json
+
+### Test Case: TC-CS-001 - Create session with available agents
+# Preconditions: Team A active, agents available below capacity
+POST {{baseUrl}}/api/ChatSessions
+Content-Type: {{contentType}}
+
+{
+  "userId": "customer-cs001@example.com"
+}
+
+### Test Case: TC-CS-002 - Create session when agents are busy but queue ok
+# Preconditions: Team A active, all agents at capacity, queue length < max queue size
+POST {{baseUrl}}/api/ChatSessions
+Content-Type: {{contentType}}
+
+{
+  "userId": "customer-cs002@example.com"
+}
+
+### Test Case: TC-CS-003 - Create session when main queue is full (no overflow)
+# Preconditions: Team C (night shift) active, queue length = max queue size
+POST {{baseUrl}}/api/ChatSessions
+Content-Type: {{contentType}}
+
+{
+  "userId": "customer-cs003@example.com"
+}
+
+### Test Case: TC-CS-004 - Create session when main queue is full (office hours, overflow available)
+# Preconditions: Team A active (office hours), queue length = max queue size, overflow team not full
+POST {{baseUrl}}/api/ChatSessions
+Content-Type: {{contentType}}
+
+{
+  "userId": "customer-cs004@example.com"
+}
+
+### Test Case: TC-CS-005 - Create session when main and overflow queues are full
+# Preconditions: Team A active (office hours), main queue full, overflow queue full
+POST {{baseUrl}}/api/ChatSessions
+Content-Type: {{contentType}}
+
+{
+  "userId": "customer-cs005@example.com"
+}
+
+### Test Case: TC-CS-006 - Queue follows FIFO
+# Check queue status to verify FIFO is respected
+GET {{baseUrl}}/api/Queue/status
+
+
+### Test Case: TC-AA-001 - Assign to Junior first (Round Robin)
+# Get all available agents to verify assignment pattern
+GET {{baseUrl}}/api/Agents/available?includeAllAgents=true
+
+
+### Test Case: TC-AA-002 - Assign to mixed seniority based on capacity (Round Robin)
+# Assign chat to specific agent
+POST {{baseUrl}}/api/Queue/assign
+Content-Type: {{contentType}}
+
+{
+  "sessionId": 1,
+  "agentId": 1
+}
+
+### Test Case: TC-AA-003 - Example Assignment (1 Snr, 1 Jnr)
+# Create new sessions for capacity testing
+POST {{baseUrl}}/api/ChatSessions
+Content-Type: {{contentType}}
+
+{
+  "userId": "capacity-test@example.com"
+}
+
+### Test Case: TC-AA-004 - Agent at individual capacity
+# Update agent availability
+PUT {{baseUrl}}/api/Agents/2/availability
+Content-Type: {{contentType}}
+
+{
+  "isActive": true
+}
+
+### Test Case: TC-AA-005 - Agent shift ends
+# Update agent availability (marking as offline/end of shift)
+PUT {{baseUrl}}/api/Agents/3/availability
+Content-Type: {{contentType}}
+
+{
+  "isActive": false
+}
+
+### Test Case: TC-AA-006 - Overflow team assignment
+# Check if overflow team is active
+GET {{baseUrl}}/api/Queue/status
+
+
+### Test Case: TC-AA-007 - Team Capacity Calculation (Team A)
+# This needs backend unit testing (capacity calculation)
+
+
+### Test Case: TC-AA-008 - Queue Size Limit Calculation (Team A)
+# Get queue status to check max queue size
+GET {{baseUrl}}/api/Queue/status
+
+
+### Test Case: TC-AA-009 - Team Capacity Calculation (Example: 2 Mid, 1 Jun)
+# This needs backend unit testing (capacity calculation)
+
+
+### Test Case: TC-PI-001 - Successful polling
+# Poll a session to keep it active
+GET {{baseUrl}}/api/ChatSessions/1/poll
+
+
+### Test Case: TC-PI-002 - Session marked inactive
+# Explicitly mark a session as inactive
+PUT {{baseUrl}}/api/ChatSessions/2/inactive
+
+
+### Test Case: TC-PI-003 - Polling resumes before timeout
+# Poll a session that hasn't been polled recently
+GET {{baseUrl}}/api/ChatSessions/3/poll

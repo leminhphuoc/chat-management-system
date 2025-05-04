@@ -1,0 +1,11 @@
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\bin\Debug\net8.0\ChatSupportSystem.Domain.deps.json
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\bin\Debug\net8.0\ChatSupportSystem.Domain.dll
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\bin\Debug\net8.0\ChatSupportSystem.Domain.pdb
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\obj\Debug\net8.0\ChatSupportSystem.Domain.dll
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\obj\Debug\net8.0\refint\ChatSupportSystem.Domain.dll
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\obj\Debug\net8.0\ChatSupportSystem.Domain.pdb
+C:\Code\ChatManagement\ChatSupportSystem\src\Domain\obj\Debug\net8.0\ref\ChatSupportSystem.Domain.dll

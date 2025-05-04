@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "kiN1tkLQDPtGlRWjJRbR1BeO0RHNkcpIrsyfY6M/F8k=",
+  "Source": "ChatSupportSystem.Web",
+  "BasePath": "_content/ChatSupportSystem.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

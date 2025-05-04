@@ -1,0 +1,319 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Code\\ChatManagement\\ChatSupportSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B0C885-7110-4FA7-B0C7-C14F79BDDAAB}|src\\Infrastructure\\Infrastructure.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\src\\infrastructure\\data\\chatsupportdbcontextinitialiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B0C885-7110-4FA7-B0C7-C14F79BDDAAB}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\chatsupportdbcontextinitialiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B0C885-7110-4FA7-B0C7-C14F79BDDAAB}|src\\Infrastructure\\Infrastructure.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\src\\infrastructure\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B0C885-7110-4FA7-B0C7-C14F79BDDAAB}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE25CAAB-F625-43FD-BC02-BC0EB5D8970F}|src\\Domain\\Domain.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\src\\domain\\valueobjects\\shiftschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE25CAAB-F625-43FD-BC02-BC0EB5D8970F}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\valueobjects\\shiftschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE25CAAB-F625-43FD-BC02-BC0EB5D8970F}|src\\Domain\\Domain.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\src\\domain\\enums\\shifttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE25CAAB-F625-43FD-BC02-BC0EB5D8970F}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\enums\\shifttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF7C3C4-06C5-4815-A085-206E85A14DFF}|src\\Web\\Web.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\src\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6CF7C3C4-06C5-4815-A085-206E85A14DFF}|src\\Web\\Web.csproj|solutionrelative:src\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BFA392-C3D0-4E64-88F6-DA821741C55B}|src\\Application\\Application.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\src\\application\\features\\agents\\queries\\getavailableagents\\getavailableagents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BFA392-C3D0-4E64-88F6-DA821741C55B}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\agents\\queries\\getavailableagents\\getavailableagents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE25CAAB-F625-43FD-BC02-BC0EB5D8970F}|src\\Domain\\Domain.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\src\\domain\\entities\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE25CAAB-F625-43FD-BC02-BC0EB5D8970F}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B0C885-7110-4FA7-B0C7-C14F79BDDAAB}|src\\Infrastructure\\Infrastructure.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\src\\infrastructure\\data\\configurations\\teamconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B0C885-7110-4FA7-B0C7-C14F79BDDAAB}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\configurations\\teamconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E470519C-B6D4-4E45-B837-EF137EE93773}|tests\\Functional.Tests\\Functional.Tests.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\tests\\functional.tests\\testrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E470519C-B6D4-4E45-B837-EF137EE93773}|tests\\Functional.Tests\\Functional.Tests.csproj|solutionrelative:tests\\functional.tests\\testrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E470519C-B6D4-4E45-B837-EF137EE93773}|tests\\Functional.Tests\\Functional.Tests.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\tests\\functional.tests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E470519C-B6D4-4E45-B837-EF137EE93773}|tests\\Functional.Tests\\Functional.Tests.csproj|solutionrelative:tests\\functional.tests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{065E8D3F-4299-4528-9632-2A3CE58252D8}|tests\\Infrastructure.UnitTests\\Infrastructure.UnitTests.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\tests\\infrastructure.unittests\\services\\agentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{065E8D3F-4299-4528-9632-2A3CE58252D8}|tests\\Infrastructure.UnitTests\\Infrastructure.UnitTests.csproj|solutionrelative:tests\\infrastructure.unittests\\services\\agentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{065E8D3F-4299-4528-9632-2A3CE58252D8}|tests\\Infrastructure.UnitTests\\Infrastructure.UnitTests.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\tests\\infrastructure.unittests\\repositories\\chatsessionrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{065E8D3F-4299-4528-9632-2A3CE58252D8}|tests\\Infrastructure.UnitTests\\Infrastructure.UnitTests.csproj|solutionrelative:tests\\infrastructure.unittests\\repositories\\chatsessionrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714D1F36-9626-4106-A8F3-08F4D1C9724E}|tests\\Application.UnitTests\\Application.UnitTests.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\tests\\application.unittests\\features\\chatsessions\\createchatsessioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714D1F36-9626-4106-A8F3-08F4D1C9724E}|tests\\Application.UnitTests\\Application.UnitTests.csproj|solutionrelative:tests\\application.unittests\\features\\chatsessions\\createchatsessioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BFA392-C3D0-4E64-88F6-DA821741C55B}|src\\Application\\Application.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\src\\application\\features\\chatsessions\\commands\\createchatsession\\createchatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BFA392-C3D0-4E64-88F6-DA821741C55B}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\chatsessions\\commands\\createchatsession\\createchatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13789566-427C-4A0B-80E6-0A80244DB715}|tests\\Domain.UnitTests\\Domain.UnitTests.csproj|c:\\code\\chatmanagement\\chatsupportsystem\\tests\\domain.unittests\\domain.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13789566-427C-4A0B-80E6-0A80244DB715}|tests\\Domain.UnitTests\\Domain.UnitTests.csproj|solutionrelative:tests\\domain.unittests\\domain.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 273,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShiftSchedule.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Domain\\ValueObjects\\ShiftSchedule.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\ValueObjects\\ShiftSchedule.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Domain\\ValueObjects\\ShiftSchedule.cs",
+              "RelativeToolTip": "src\\Domain\\ValueObjects\\ShiftSchedule.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:27:36.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgentService.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Infrastructure\\Services\\AgentService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\AgentService.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Infrastructure\\Services\\AgentService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Services\\AgentService.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAmwG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:20:32.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShiftType.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Domain\\Enums\\ShiftType.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Enums\\ShiftType.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Domain\\Enums\\ShiftType.cs",
+              "RelativeToolTip": "src\\Domain\\Enums\\ShiftType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:28:15.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatSupportDbContextInitialiser.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Infrastructure\\Data\\ChatSupportDbContextInitialiser.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\ChatSupportDbContextInitialiser.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Infrastructure\\Data\\ChatSupportDbContextInitialiser.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\ChatSupportDbContextInitialiser.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAWwKgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:26:44.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Domain\\Entities\\Agent.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Agent.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Domain\\Entities\\Agent.cs",
+              "RelativeToolTip": "src\\Domain\\Entities\\Agent.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAIA5wCAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:26:08.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Web\\appsettings.json",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Web\\appsettings.json",
+              "RelativeToolTip": "src\\Web\\appsettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-04T10:25:53.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAvailableAgents.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Application\\Features\\Agents\\Queries\\GetAvailableAgents\\GetAvailableAgents.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Features\\Agents\\Queries\\GetAvailableAgents\\GetAvailableAgents.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Application\\Features\\Agents\\Queries\\GetAvailableAgents\\GetAvailableAgents.cs",
+              "RelativeToolTip": "src\\Application\\Features\\Agents\\Queries\\GetAvailableAgents\\GetAvailableAgents.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:25:20.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeamConfiguration.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Infrastructure\\Data\\Configurations\\TeamConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\Configurations\\TeamConfiguration.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Infrastructure\\Data\\Configurations\\TeamConfiguration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\Configurations\\TeamConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIA9wBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:20:26.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChatSessionRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Infrastructure.UnitTests\\Repositories\\ChatSessionRepositoryTests.cs",
+              "RelativeDocumentMoniker": "tests\\Infrastructure.UnitTests\\Repositories\\ChatSessionRepositoryTests.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Infrastructure.UnitTests\\Repositories\\ChatSessionRepositoryTests.cs",
+              "RelativeToolTip": "tests\\Infrastructure.UnitTests\\Repositories\\ChatSessionRepositoryTests.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:44:46.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateChatSessionCommandHandler.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Application.UnitTests\\Features\\ChatSessions\\CreateChatSessionCommandHandler.cs",
+              "RelativeDocumentMoniker": "tests\\Application.UnitTests\\Features\\ChatSessions\\CreateChatSessionCommandHandler.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Application.UnitTests\\Features\\ChatSessions\\CreateChatSessionCommandHandler.cs",
+              "RelativeToolTip": "tests\\Application.UnitTests\\Features\\ChatSessions\\CreateChatSessionCommandHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:48:24.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Functional.Tests\\Program.cs",
+              "RelativeDocumentMoniker": "tests\\Functional.Tests\\Program.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Functional.Tests\\Program.cs",
+              "RelativeToolTip": "tests\\Functional.Tests\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAtwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:52:11.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AgentServiceTests.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Infrastructure.UnitTests\\Services\\AgentServiceTests.cs",
+              "RelativeDocumentMoniker": "tests\\Infrastructure.UnitTests\\Services\\AgentServiceTests.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Infrastructure.UnitTests\\Services\\AgentServiceTests.cs",
+              "RelativeToolTip": "tests\\Infrastructure.UnitTests\\Services\\AgentServiceTests.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:45:42.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestRunner.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Functional.Tests\\TestRunner.cs",
+              "RelativeDocumentMoniker": "tests\\Functional.Tests\\TestRunner.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Functional.Tests\\TestRunner.cs",
+              "RelativeToolTip": "tests\\Functional.Tests\\TestRunner.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:52:06.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateChatSession.cs",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Application\\Features\\ChatSessions\\Commands\\CreateChatSession\\CreateChatSession.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Features\\ChatSessions\\Commands\\CreateChatSession\\CreateChatSession.cs",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\src\\Application\\Features\\ChatSessions\\Commands\\CreateChatSession\\CreateChatSession.cs",
+              "RelativeToolTip": "src\\Application\\Features\\ChatSessions\\Commands\\CreateChatSession\\CreateChatSession.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:49:41.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Domain.UnitTests",
+              "DocumentMoniker": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Domain.UnitTests\\Domain.UnitTests.csproj",
+              "RelativeDocumentMoniker": "tests\\Domain.UnitTests\\Domain.UnitTests.csproj",
+              "ToolTip": "C:\\Code\\ChatManagement\\ChatSupportSystem\\tests\\Domain.UnitTests\\Domain.UnitTests.csproj",
+              "RelativeToolTip": "tests\\Domain.UnitTests\\Domain.UnitTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-04T09:44:20.402Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

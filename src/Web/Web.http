@@ -1,0 +1,57 @@
+@Web_HostAddress = http://localhost:5066
+
+// --- Chat Sessions Endpoints ---
+
+### Create a new chat session
+POST {{Web_HostAddress}}/api/ChatSessions
+Content-Type: application/json
+
+{
+  "userId": "user15"
+}
+
+### Poll a chat session
+GET {{Web_HostAddress}}/api/ChatSessions/6/poll
+Accept: application/json
+
+### Mark a chat session as inactive
+PUT {{Web_HostAddress}}/api/ChatSessions/1/inactive
+Content-Type: application/json
+
+{
+  "sessionId": 1
+}
+
+// --- Agents Endpoints ---
+
+### Get available agents
+GET {{Web_HostAddress}}/api/Agents/available?includeAllAgents=false
+Accept: application/json
+
+### Update agent availability
+PUT {{Web_HostAddress}}/api/Agents/1/availability
+Content-Type: application/json
+
+{
+  "agentId": 1,
+  "IsActive": true
+}
+
+// --- Queue Endpoints ---
+
+### Get queue status
+GET {{Web_HostAddress}}/api/Queue/status
+Accept: application/json
+
+### Assign chat to agent
+POST {{Web_HostAddress}}/api/Queue/assign
+Content-Type: application/json
+
+{
+  "sessionId": 7,
+  "agentId": 2
+}
+
+### Health check
+GET {{Web_HostAddress}}/health
+Accept: application/json
